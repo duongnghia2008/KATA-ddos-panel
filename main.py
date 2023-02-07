@@ -636,13 +636,13 @@ def main():
                 pass
             
 def login():
-    user = "0112"
-    passwd = "0112"
+    user = "1"
+    passwd = "1"
     username = input("⚡ Username: ")
     password = getpass.getpass(prompt='⚡ Password: ')
     if username != user or password != passwd:
         print("")
-        print("⚡ Wrong, Get Username and Password at: http://traffic1s.com/katapanel")
+        print("⚡ Wrong, Please Try Again
         sys.exit(1)
     elif username == user and password == passwd:
         print("⚡ Thank you very muchhhhh <333")
